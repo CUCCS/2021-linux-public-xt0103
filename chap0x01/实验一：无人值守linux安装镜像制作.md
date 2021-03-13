@@ -52,8 +52,6 @@ sudo chown xt:xt /var/log/installer/autoinstall-user-data
 sudo apt install genisoimage
 ```
 
-![12](照片\12.jpg)
-
 ②将user-data文件和meta-data文件传给虚拟机
 
 ```cmd
@@ -88,8 +86,5 @@ ssh连接失败，虚拟机用户名和地址都没错，通过向老师请教�
 
 ![6](照片\6.png)
 
-通过执行 sudo apt update && sudo apt install openssh-server解决问题![7](![7](照片\7.jpg)
+通过执行 sudo apt update && sudo apt install openssh-server解决问题![7](照片\7.jpg)
 
-3、![14](照片\14.jpg)
-
-生成镜像时报错，通过genisoimage -input-charset utf-8 -output init.iso -volid cidata -joliet -rock user-data meta-data解决
